@@ -1,0 +1,35 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;    
+}
+
+.container {
+  border: 3px solid rgb(202, 18, 52);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);  
+  width: 500px;
+  background-color: #9cea43;
+  text-align:center;
+}
+
+.header {
+  background-color: rgba(209, 77, 20, 0.637);
+  padding: 10px;
+  font-size: 1.2rem;
+  color:white;
+}
+
+.timer {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 10px;
+}
